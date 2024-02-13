@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  import Button from 'primevue/button';
+  import HomeNavbar from './views/HomeNavbar.vue';
 </script>
 
 <template>
-  <Button label="Rohit" />
+  <HomeNavbar :items="['Home', 'Tasks', 'Reminders', 'Calendar', 'About']" />
 </template>
